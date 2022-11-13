@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FA552CA2-C5B2-3153-B190-2605559202A7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Example</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Example.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Example</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Example.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Example</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Example.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Example</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Example.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Example</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt
+	;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\System;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBCPU;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBFPS;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBInput;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBLog;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBTimer;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXCamera;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXD3D;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXEngine;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight\DXL_Shader;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Manager;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Physics;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXTexture;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Font;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Shader;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;WINDOW_NAME;=;Hello ~;WINDOW_WIDTH;640;WINDOW_HEIGHT;480;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;WINDOW_NAME;=;Hello ~;WINDOW_WIDTH;640;WINDOW_HEIGHT;480;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt
+	;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\System;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBCPU;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBFPS;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBInput;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBLog;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBTimer;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXCamera;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXD3D;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXEngine;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight\DXL_Shader;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Manager;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Physics;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXTexture;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Font;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Shader;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt
+	;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\System;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBCPU;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBFPS;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBInput;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBLog;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBTimer;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXCamera;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXD3D;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXEngine;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight\DXL_Shader;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Manager;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Physics;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXTexture;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Font;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Shader;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>winMM.lib;Pdh.lib;d3d11.lib;d3dx11.lib;d3dx10.lib;dxgi.lib;dxguid.lib;d3dcompiler.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um;C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/$(Configuration);C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Lib/x64;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Lib/x64/$(Configuration);C:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/build/install/lib;C:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/build/install/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/build/Debug/Example.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/build/Debug/Example.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt
+	;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\System;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBCPU;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBFPS;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBInput;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBLog;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBTimer;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXCamera;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXD3D;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXEngine;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight\DXL_Shader;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Manager;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Physics;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXTexture;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Font;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Shader;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WINDOW_NAME;=;Hello ~;WINDOW_WIDTH;640;WINDOW_HEIGHT;480;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WINDOW_NAME;=;Hello ~;WINDOW_WIDTH;640;WINDOW_HEIGHT;480;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt
+	;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\System;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBCPU;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBFPS;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBInput;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBLog;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBTimer;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXCamera;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXD3D;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXEngine;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight\DXL_Shader;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Manager;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Physics;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXTexture;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Font;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Shader;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt
+	;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\System;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBCPU;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBFPS;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBInput;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBLog;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBTimer;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXCamera;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXD3D;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXEngine;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight\DXL_Shader;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Manager;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Physics;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXTexture;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Font;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Shader;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>winMM.lib;Pdh.lib;d3d11.lib;d3dx11.lib;d3dx10.lib;dxgi.lib;dxguid.lib;d3dcompiler.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um;C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/$(Configuration);C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Lib/x64;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Lib/x64/$(Configuration);C:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/build/install/lib;C:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/build/install/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/build/Release/Example.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/build/Release/Example.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt
+	;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\System;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBCPU;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBFPS;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBInput;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBLog;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBTimer;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXCamera;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXD3D;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXEngine;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight\DXL_Shader;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Manager;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Physics;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXTexture;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Font;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Shader;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WINDOW_NAME;=;Hello ~;WINDOW_WIDTH;640;WINDOW_HEIGHT;480;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WINDOW_NAME;=;Hello ~;WINDOW_WIDTH;640;WINDOW_HEIGHT;480;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt
+	;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\System;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBCPU;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBFPS;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBInput;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBLog;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBTimer;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXCamera;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXD3D;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXEngine;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight\DXL_Shader;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Manager;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Physics;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXTexture;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Font;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Shader;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt
+	;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\System;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBCPU;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBFPS;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBInput;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBLog;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBTimer;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXCamera;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXD3D;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXEngine;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight\DXL_Shader;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Manager;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Physics;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXTexture;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Font;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Shader;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>winMM.lib;Pdh.lib;d3d11.lib;d3dx11.lib;d3dx10.lib;dxgi.lib;dxguid.lib;d3dcompiler.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um;C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/$(Configuration);C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Lib/x64;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Lib/x64/$(Configuration);C:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/build/install/lib;C:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/build/install/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/build/MinSizeRel/Example.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/build/MinSizeRel/Example.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt
+	;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\System;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBCPU;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBFPS;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBInput;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBLog;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBTimer;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXCamera;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXD3D;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXEngine;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight\DXL_Shader;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Manager;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Physics;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXTexture;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Font;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Shader;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WINDOW_NAME;=;Hello ~;WINDOW_WIDTH;640;WINDOW_HEIGHT;480;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WINDOW_NAME;=;Hello ~;WINDOW_WIDTH;640;WINDOW_HEIGHT;480;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt
+	;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\System;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBCPU;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBFPS;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBInput;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBLog;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBTimer;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXCamera;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXD3D;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXEngine;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight\DXL_Shader;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Manager;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Physics;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXTexture;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Font;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Shader;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt
+	;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\System;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBCPU;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBFPS;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBInput;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBLog;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBTimer;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXCamera;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXD3D;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXEngine;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight\DXL_Shader;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Manager;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Physics;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXTexture;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Font;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Shader;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>winMM.lib;Pdh.lib;d3d11.lib;d3dx11.lib;d3dx10.lib;dxgi.lib;dxguid.lib;d3dcompiler.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um;C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/$(Configuration);C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Lib/x64;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Lib/x64/$(Configuration);C:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/build/install/lib;C:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/build/install/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/build/RelWithDebInfo/Example.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/build/RelWithDebInfo/Example.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D" "-BC:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/build" --check-stamp-file "C:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\Dependency.cmake;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\CMakeFiles\3.24.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D" "-BC:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/build" --check-stamp-file "C:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\Dependency.cmake;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\CMakeFiles\3.24.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D" "-BC:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/build" --check-stamp-file "C:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\Dependency.cmake;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\CMakeFiles\3.24.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D" "-BC:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/build" --check-stamp-file "C:/Users/겨울엔군고구마한잔/OneDrive - 한양대학교/바탕 화면/C++/Directx11/FrameWork - 2D/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\Dependency.cmake;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\CMakeFiles\3.24.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\main.cpp" />
+    <ClInclude Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\System\System.h" />
+    <ClCompile Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\System\System.cpp" />
+    <ClInclude Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBCommon.h" />
+    <ClInclude Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBCPU\SUBCPU.h" />
+    <ClCompile Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBCPU\SUBCPU.cpp" />
+    <ClInclude Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBFPS\SUBFPS.h" />
+    <ClCompile Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBFPS\SUBFPS.cpp" />
+    <ClInclude Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBInput\SUBInput.h" />
+    <ClCompile Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBInput\SUBInput.cpp" />
+    <ClInclude Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBLog\SUBLog.h" />
+    <ClCompile Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBLog\SUBLog.cpp" />
+    <ClInclude Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBTimer\SUBTimer.h" />
+    <ClCompile Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\SUB\SUBTimer\SUBTimer.cpp" />
+    <ClInclude Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXCommon.h" />
+    <ClInclude Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXCamera\DXCamera.h" />
+    <ClCompile Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXCamera\DXCamera.cpp" />
+    <ClInclude Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXD3D\DXD3D.h" />
+    <ClCompile Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXD3D\DXD3D.cpp" />
+    <ClInclude Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXEngine\DXEngine.h" />
+    <ClCompile Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXEngine\DXEngine.cpp" />
+    <ClInclude Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight\DXLight.h" />
+    <ClCompile Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight\DXLight.cpp" />
+    <ClInclude Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight\DXL_Shader\DXL_Shader.h" />
+    <ClCompile Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXLight\DXL_Shader\DXL_Shader.cpp" />
+    <ClInclude Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXModel.h" />
+    <ClCompile Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXModel.cpp" />
+    <ClInclude Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Common.h" />
+    <ClInclude Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Manager\DXM_Manager.h" />
+    <ClCompile Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Manager\DXM_Manager.cpp" />
+    <ClInclude Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Physics\DXM_Physics.h" />
+    <ClCompile Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXModel\DXM_Physics\DXM_Physics.cpp" />
+    <ClInclude Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXText.h" />
+    <ClCompile Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXText.cpp" />
+    <ClInclude Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Font\DXT_Font.h" />
+    <ClCompile Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Font\DXT_Font.cpp" />
+    <ClInclude Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Shader\DXT_Shader.h" />
+    <ClCompile Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXText\DXT_Shader\DXT_Shader.cpp" />
+    <ClInclude Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXTexture\DXTexture.h" />
+    <ClCompile Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\src\DX\DXTexture\DXTexture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\겨울엔군고구마한잔\OneDrive - 한양대학교\바탕 화면\C++\Directx11\FrameWork - 2D\build\ZERO_CHECK.vcxproj">
+      <Project>{A86A8B0D-2DDC-3821-9DC3-4C0F056A9679}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
